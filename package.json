@@ -1,0 +1,26 @@
+{
+  "name": "speech-to-text",
+  "version": "1.0.0",
+  "description": "A friend is looking for a more efficient way to transcribe hours of interviews for her master's degree thesis. After finding the text to speech software on Google Cloud, I thought it would be a fun project to undertake, so here we go!",
+  "main": "app.js",
+  "dependencies": {
+    "@google-cloud/speech": "^2.3.0",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "set GOOGLE_APPLICATION_CREDENTIALS=D:\\projects\\speech-to-text\\key.json&& node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "Google",
+    "Cloud",
+    "speech",
+    "to",
+    "text",
+    "API"
+  ],
+  "author": "Trent Stenoien",
+  "license": "ISC"
+}
